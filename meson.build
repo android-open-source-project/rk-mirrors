@@ -46,7 +46,6 @@ librga = static_library(
     librga_srcs,
     dependencies : [libthreads_dep],
 	include_directories : incdir,
-    version : meson.project_version(),
     cpp_args : ['-w', '-fPIC'],
     install : true,
 )
